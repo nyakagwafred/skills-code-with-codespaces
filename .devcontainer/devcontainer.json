@@ -5,12 +5,11 @@
   "overrideCommand": false,
   "customizations": {
     "vscode": {
-      "extensions": ["GitHub.copilot"]
+      "extensions": ["GitHub.copilot", "Prettier.prettier-vscode"]
     },
     "codespaces": {
-      "openFiles": ["codespace.md"]
+      "openFiles": ["index.html", "codespace.md"]
     }
-  }
-   ,
- "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
+  },
+  "postCreateCommand": "echo '# Writing code upon codespace creation!'  >> codespace.md"
 }
